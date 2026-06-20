@@ -13,8 +13,12 @@ external_link: ""
 image:
   caption: ""
   focal_point: Smart
-links: []
-url_code: ""
+links:
+  - icon: chart-bar
+    icon_pack: fas
+    name: Live Demo
+    url: https://sme-incentive-engine.streamlit.app/
+url_code: "https://github.com/wanmila07/incentive-allocation-engine"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -58,7 +62,10 @@ World Bank Indonesian Survey of Informal Sector Enterprises (ISES 2023) - 5,352 
 
 ## Status
 
-Algorithm development and experimental evaluation complete. Manuscript under review. Dashboard and API layer in active development.
+Algorithm development and experimental evaluation complete. Manuscript under review. 
+
+**[→ View Interactive Dashboard](https://sme-incentive-engine.streamlit.app/)**
+
 
 ## Research Output
 
