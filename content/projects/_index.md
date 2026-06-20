@@ -8,7 +8,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: Research and development projects spanning AI optimisation, computational performance engineering, and full-stack system development.
       filters:
         folders:
           - projects

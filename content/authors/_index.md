@@ -1,9 +1,9 @@
 ---
-# To publish author profile pages, remove all the `build` and `cascade` settings below.
-build:
-  render: never
-cascade:
-  build:
-    render: never
-    list: always
+title: "Wan Nur Syamilah Wan Ali"
+type: landing
+
+sections:
+  - block: resume-biography
+    content:
+      username: me
 ---
