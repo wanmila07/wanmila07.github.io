@@ -9,10 +9,15 @@ tags:
 - Operations Research
 - Decision Support
 date: "2026-03-18T00:00:00Z"
-external_link: "https://github.com/wanmila07/informal-sme-incentive-optimizer"
+external_link: ""
 image:
   caption: ""
   focal_point: Smart
+links: []
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
 ---
 
 ## Overview
