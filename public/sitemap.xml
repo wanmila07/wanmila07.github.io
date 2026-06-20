@@ -30,6 +30,18 @@
   <url>
     <loc>https://example.com/authors/zulaiha-ali-othman/</loc><lastmod>2026-05-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://example.com/tags/evolutionary-optimisation/</loc><lastmod>2026-03-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/projects/moea-incentive/</loc><lastmod>2026-03-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/tags/multi-objective-optimisation/</loc><lastmod>2026-03-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/tags/nsga-ii/</loc><lastmod>2026-03-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/tags/operations-research/</loc><lastmod>2026-03-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/tags/python/</loc><lastmod>2026-03-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://example.com/tags/cnn/</loc><lastmod>2026-03-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/tags/computer-vision/</loc><lastmod>2026-03-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -73,8 +85,6 @@
     <loc>https://example.com/tags/performance-optimisation/</loc><lastmod>2025-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/tags/php/</loc><lastmod>2025-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tags/python/</loc><lastmod>2025-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/tags/smart-grid/</loc><lastmod>2025-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -158,6 +168,4 @@
   <url>
     <loc>https://example.com/publications/aiic-2020/</loc><lastmod>2020-08-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://example.com/events/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/projects/moea-incentive/</loc><changefreq>weekly</changefreq></url></urlset>
+    <loc>https://example.com/events/</loc><changefreq>weekly</changefreq></url></urlset>
