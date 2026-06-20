@@ -13,9 +13,7 @@ external_link: ""
 image:
   caption: ""
   focal_point: Smart
-links:
-  - icon: []
-    url: https://github.com/wanmila07/informal-sme-incentive-optimizer
+links: []
 url_code: "https://github.com/wanmila07/informal-sme-incentive-optimizer"
 url_pdf: ""
 url_slides: ""
