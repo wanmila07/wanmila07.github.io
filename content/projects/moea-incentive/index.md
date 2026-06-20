@@ -32,30 +32,29 @@ Informal sector SMEs form a significant portion of developing economies but are 
 
 A Multi-Objective Evolutionary Algorithm (MOEA) with adaptive operators was developed to simultaneously optimise three competing objectives:
 
-- **Efficiency** — maximising economic impact per incentive unit
-- **Equity** — ensuring fair distribution across business segments
-- **Sustainability** — prioritising businesses with long-term viability
+- Efficiency: maximising economic impact per incentive unit
+- Equity: ensuring fair distribution across business segments
+- Sustainability: prioritising businesses with long-term viability
 
-**Key algorithmic contributions:**
+Key algorithmic contributions:
+
 - Adaptive operator selection mechanism that dynamically adjusts crossover and mutation rates based on population diversity
 - Constraint handling for budget limits, eligibility criteria, and minimum allocation thresholds
 - Pareto front generation enabling policy-makers to explore trade-off solutions
 
 ## Dataset
 
-World Bank Indonesian Survey of Informal Sector Enterprises (ISES 2023) — 5,352 enterprises, 191 variables covering business characteristics, financial performance, access to services, and growth indicators.
+World Bank Indonesian Survey of Informal Sector Enterprises (ISES 2023) - 5,352 enterprises, 191 variables covering business characteristics, financial performance, access to services, and growth indicators.
 
 ## Technical Stack
 
-| Component | Technology |
-|---|---|
-| Core Algorithm | Python (NumPy, SciPy) |
-| Data Processing | Pandas, Pathlib |
-| Statistical Analysis | SciPy (Mann-Whitney U, Kruskal-Wallis, Spearman ρ, Bonferroni) |
-| ML Components | Scikit-learn, Keras |
-| Visualisation | Matplotlib, Plotly |
-| API Layer | FastAPI |
-| Dashboard | Streamlit |
+- Core Algorithm: Python (NumPy, SciPy)
+- Data Processing: Pandas, Pathlib
+- Statistical Analysis: SciPy (Mann-Whitney U, Kruskal-Wallis, Spearman correlation, Bonferroni)
+- ML Components: Scikit-learn, Keras
+- Visualisation: Matplotlib, Plotly
+- API Layer: FastAPI
+- Dashboard: Streamlit
 
 ## Status
 
@@ -63,5 +62,5 @@ Algorithm development and experimental evaluation complete. Manuscript under rev
 
 ## Research Output
 
-- PhD Thesis: *Multi-Objective Evolutionary Algorithm with Adaptive Operators for Informal Business Incentive Distribution Modelling* (completed, pending submission)
+- PhD Thesis: Multi-Objective Evolutionary Algorithm with Adaptive Operators for Informal Business Incentive Distribution Modelling (completed, pending submission)
 - Journal manuscript under review
