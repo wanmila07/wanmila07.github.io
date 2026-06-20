@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Healthcare | </title>
+    <link>https://example.com/tags/healthcare/</link>
+      <atom:link href="https://example.com/tags/healthcare/index.xml" rel="self" type="application/rss+xml" />
+    <description>Healthcare</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
+      <title>Healthcare</title>
+      <link>https://example.com/tags/healthcare/</link>
+    </image>
+    
+    <item>
+      <title>Artificial Intelligence in Malnutrition Research: A Bibliometric Analysis</title>
+      <link>https://example.com/publications/bsita-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/bsita-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

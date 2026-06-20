@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Security | </title>
+    <link>https://example.com/tags/network-security/</link>
+      <atom:link href="https://example.com/tags/network-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Network Security</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
+      <title>Network Security</title>
+      <link>https://example.com/tags/network-security/</link>
+    </image>
+    
+    <item>
+      <title>Enhancing Computational Performance of EDA4GNet Through Parallel Processing</title>
+      <link>https://example.com/projects/eda4gnet-parallel/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/eda4gnet-parallel/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Final Year Project (BSc Computer Science — Networks, UiTM) investigating computational bottlenecks in EDA4GNet, an anomaly detection system for IEC 61850 smart grid networks, and resolving them through parallel processing architecture.&lt;/p&gt;
+&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;EDA4GNet monitors IEC 61850 station bus traffic for GOOSE message attacks. The sequential processing architecture created bottlenecks when handling large volumes of GOOSE messages, compromising real-time detection capability at industrial scale.&lt;/p&gt;
+&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Design parallel processing models for EDA4GNet — threading, multiprocessing, and hybrid approaches&lt;/li&gt;
+&lt;li&gt;Develop and implement each model&lt;/li&gt;
+&lt;li&gt;Evaluate computational effectiveness using three metrics: speedup factor, throughput, and CPU utilisation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;
+&lt;p&gt;Based on the CRISP-DM framework adapted for network traffic analysis:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data:&lt;/strong&gt; ERENO dataset (2,305,746 records, 9 classes)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Baseline:&lt;/strong&gt; EDA4GNet with ARFIMA + State-Space AR implementation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parallel models:&lt;/strong&gt; Three approaches designed and implemented — threading, multiprocessing, hybrid&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation:&lt;/strong&gt; Four progressive stages — Proof of Concept, Algorithm Refinement, Performance Validation, Production Evaluation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Approach&lt;/th&gt;
+					&lt;th&gt;Speedup Factor&lt;/th&gt;
+					&lt;th&gt;Throughput (samples/sec)&lt;/th&gt;
+					&lt;th&gt;CPU Utilisation&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Sequential&lt;/td&gt;
+					&lt;td&gt;1.00x&lt;/td&gt;
+					&lt;td&gt;214.09&lt;/td&gt;
+					&lt;td&gt;24.10%&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Threading&lt;/td&gt;
+					&lt;td&gt;0.834x&lt;/td&gt;
+					&lt;td&gt;178.62&lt;/td&gt;
+					&lt;td&gt;28.70%&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Multiprocessing&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;3.34x&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;715.15&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;89.40%&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Hybrid&lt;/td&gt;
+					&lt;td&gt;2.30x&lt;/td&gt;
+					&lt;td&gt;492.84&lt;/td&gt;
+					&lt;td&gt;76.80%&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Detection accuracy preserved at 85.92%&lt;/strong&gt; across all parallel implementations.&lt;/p&gt;
+&lt;p&gt;Total experimental runtime: 98+ hours of real-time validation.&lt;/p&gt;
+&lt;h2 id=&#34;key-findings&#34;&gt;Key Findings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiprocessing achieved the highest speedup (3.34x) by leveraging CPU-bound parallelism for ARFIMA calculations and EM algorithm operations&lt;/li&gt;
+&lt;li&gt;Threading underperformed due to Python GIL limitations on CPU-intensive tasks&lt;/li&gt;
+&lt;li&gt;Hybrid approach provided a balance between speedup and resource usage&lt;/li&gt;
+&lt;li&gt;Industrial-scale validation confirmed real-time processing capability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;significance&#34;&gt;Significance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Quantitative benchmarks established for future EDA4GNet research&lt;/li&gt;
+&lt;li&gt;Demonstrated industrial relevance for smart grid cybersecurity&lt;/li&gt;
+&lt;li&gt;Contributed multi-scale validation methodology&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;future-work&#34;&gt;Future Work&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GPU acceleration implementation&lt;/li&gt;
+&lt;li&gt;Distributed computing architecture&lt;/li&gt;
+&lt;li&gt;Real-world smart grid deployment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;Core parallel processing study completed as part of BSc FYP (UiTM, 2025). Currently
+undertaking enhancement work targeting improved detection performance.
+Conference publication planned upon completion.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

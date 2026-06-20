@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amir Muhammad Hafiz Othman | </title>
+    <link>https://example.com/authors/amir-muhammad-hafiz-othman/</link>
+      <atom:link href="https://example.com/authors/amir-muhammad-hafiz-othman/index.xml" rel="self" type="application/rss+xml" />
+    <description>Amir Muhammad Hafiz Othman</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Trends in IoT Intrusion Detection: A Bibliometric Analysis of Deep Learning Approaches</title>
+      <link>https://example.com/publications/ijaseit-2025/</link>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/ijaseit-2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

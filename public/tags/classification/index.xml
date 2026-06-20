@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classification | </title>
+    <link>https://example.com/tags/classification/</link>
+      <atom:link href="https://example.com/tags/classification/index.xml" rel="self" type="application/rss+xml" />
+    <description>Classification</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
+      <title>Classification</title>
+      <link>https://example.com/tags/classification/</link>
+    </image>
+    
+    <item>
+      <title>Deep Learning-Based Classification of Plastic Waste Using Resin Identification Codes</title>
+      <link>https://example.com/publications/icoait-2025/</link>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/icoait-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing Teacher Placement in Workforce Management using the Staff Placement Model and J48 Classification</title>
+      <link>https://example.com/publications/jisem-2025/</link>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/jisem-2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

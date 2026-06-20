@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MobileNetV2 | </title>
+    <link>https://example.com/tags/mobilenetv2/</link>
+      <atom:link href="https://example.com/tags/mobilenetv2/index.xml" rel="self" type="application/rss+xml" />
+    <description>MobileNetV2</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
+      <title>MobileNetV2</title>
+      <link>https://example.com/tags/mobilenetv2/</link>
+    </image>
+    
+    <item>
+      <title>Plastic Bottle Defect Detection Based on CNN with MobileNetV2 Architecture</title>
+      <link>https://example.com/publications/franklin-open-2026/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/franklin-open-2026/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
