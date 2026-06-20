@@ -1,73 +1,65 @@
----
-title: "Multi-Objective Evolutionary Algorithm for Informal Business Incentive Distribution"
-summary: "PhD research project developing a MOEA with adaptive operators to solve the NP-hard problem of incentive allocation among informal sector SMEs, using World Bank enterprise survey data."
-tags:
-- Evolutionary Optimisation
-- Multi-Objective Optimisation
-- NSGA-II
-- Python
-- Operations Research
-- Decision Support
-date: "2026-03-18T00:00:00Z"
-external_link: ""
-image:
-  caption: ""
-  focal_point: Smart
-links:
-  - icon: chart-bar
-    icon_pack: fas
-    name: Live Demo
-    url: https://sme-incentive-engine.streamlit.app/
-url_code: "https://github.com/wanmila07/incentive-allocation-engine"
-url_pdf: ""
-url_slides: ""
-url_video: ""
----
+# SME Incentive Allocation Engine
 
-## Overview
+A multi-objective optimization system for informal sector business incentive distribution, built on evolutionary algorithms and World Bank enterprise survey data.
 
-This project is the computational core of my PhD thesis, addressing the NP-hard problem of distributing limited government incentives among informal sector businesses in a fair, efficient, and sustainable manner.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://sme-incentive-engine.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python)](https://python.org)
 
-## Problem Statement
+## Problem
 
-Informal sector SMEs form a significant portion of developing economies but are frequently excluded from formal incentive programmes due to the lack of systematic allocation frameworks. Distributing limited incentives across thousands of businesses with heterogeneous needs and constraints is a combinatorial optimisation problem that cannot be solved optimally by traditional methods at scale.
+Informal SME incentive programmes in developing economies typically operate on first-come-first-served or single-objective prioritisation. Policymakers face an impossible choice:
+
+- **Efficiency** — allocate to high-growth, high-revenue firms
+- **Equity** — prioritise vulnerable micro-enterprises and female-owned businesses
+- **Sustainability** — favour technology-ready, ESG-aligned firms
+
+No current framework handles all three simultaneously under real budget constraints across thousands of heterogeneous businesses.
 
 ## Approach
 
-A Multi-Objective Evolutionary Algorithm (MOEA) with adaptive operators was developed to simultaneously optimise three competing objectives:
+Multi-Objective Evolutionary Algorithm (MOEA) with adaptive operators to generate Pareto-optimal allocation sets — giving policymakers a structured view of real trade-offs rather than forcing a single answer.
 
-- Efficiency: maximising economic impact per incentive unit
-- Equity: ensuring fair distribution across business segments
-- Sustainability: prioritising businesses with long-term viability
+**Key components:**
+- Constrained MOEA with adaptive crossover and mutation operators
+- Three-objective scoring framework (Efficiency, Equity, Sustainability)
+- Interactive Pareto trade-off explorer
+- Policy scenario simulation
 
-Key algorithmic contributions:
+## Live Dashboard
 
-- Adaptive operator selection mechanism that dynamically adjusts crossover and mutation rates based on population diversity
-- Constraint handling for budget limits, eligibility criteria, and minimum allocation thresholds
-- Pareto front generation enabling policy-makers to explore trade-off solutions
+[→ sme-incentive-engine.streamlit.app](https://sme-incentive-engine.streamlit.app/)
 
-## Dataset
+Explore business rankings, score distributions, and Pareto trade-offs interactively.
 
-World Bank Indonesian Survey of Informal Sector Enterprises (ISES 2023) - 5,352 enterprises, 191 variables covering business characteristics, financial performance, access to services, and growth indicators.
+> Dashboard uses synthetic data generated to mirror the statistical properties of World Bank ISES 2023. Research conducted on licensed dataset (5,352 enterprises, 191 variables).
 
-## Technical Stack
+## Stack
 
-- Core Algorithm: Python (NumPy, SciPy)
-- Data Processing: Pandas, Pathlib
-- Statistical Analysis: SciPy (Mann-Whitney U, Kruskal-Wallis, Spearman correlation, Bonferroni)
-- ML Components: Scikit-learn, Keras
-- Visualisation: Matplotlib, Plotly
-- API Layer: FastAPI
-- Dashboard: Streamlit
+| Layer | Tools |
+|---|---|
+| Optimisation | Python, NumPy, SciPy |
+| Data | Pandas, World Bank ISES 2023 |
+| Dashboard | Streamlit, Plotly |
+| Deployment | Streamlit Community Cloud |
 
-## Status
+## Repository Structure
 
-Algorithm development and experimental evaluation complete. Manuscript under review. 
+incentive-allocation-engine/
 
-**[→ View Interactive Dashboard](https://sme-incentive-engine.streamlit.app/)**
+├── app/
+│   └── dashboard.py        # Streamlit dashboard
+├── data/
+│   └── processed/
+│       ├── scored_dataset.csv        # Synthetic demo data
+│       └── generate_synthetic.py     # Synthetic data generator
+├── requirements.txt
+└── README.md
 
 
-## Research Output
+## Research Context
 
-- PhD Thesis: Multi-Objective Evolutionary Algorithm with Adaptive Operators for Informal Business Incentive Distribution Modelling (completed, pending submission)
-- Journal manuscript under review
+This project operationalises findings from PhD research in Artificial Intelligence at Universiti Kebangsaan Malaysia, focusing on multi-objective evolutionary algorithms with adaptive operators for informal business incentive distribution modelling.
+
+## License
+
+MIT
