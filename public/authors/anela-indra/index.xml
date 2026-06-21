@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Anela Indra | </title>
-    <link>https://example.com/authors/anela-indra/</link>
-      <atom:link href="https://example.com/authors/anela-indra/index.xml" rel="self" type="application/rss+xml" />
-    <description>Anela Indra</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>Deep Learning-Based Classification of Plastic Waste Using Resin Identification Codes</title>
-      <link>https://example.com/publications/icoait-2025/</link>
-      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/icoait-2025/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Anela Indra |</title><link>https://wanmila07.github.io/authors/anela-indra/</link><atom:link href="https://wanmila07.github.io/authors/anela-indra/index.xml" rel="self" type="application/rss+xml"/><description>Anela Indra</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate><item><title>Deep Learning-Based Classification of Plastic Waste Using Resin Identification Codes</title><link>https://wanmila07.github.io/publications/icoait-2025/</link><pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate><guid>https://wanmila07.github.io/publications/icoait-2025/</guid><description/></item></channel></rss>

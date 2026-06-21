@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Wan Nur Syamilah Wan Ali | </title>
-    <link>https://example.com/authors/</link>
-      <atom:link href="https://example.com/authors/index.xml" rel="self" type="application/rss+xml" />
-    <description>Wan Nur Syamilah Wan Ali</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
-      <title>Wan Nur Syamilah Wan Ali</title>
-      <link>https://example.com/authors/</link>
-    </image>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wan Nur Syamilah Wan Ali |</title><link>https://wanmila07.github.io/authors/</link><atom:link href="https://wanmila07.github.io/authors/index.xml" rel="self" type="application/rss+xml"/><description>Wan Nur Syamilah Wan Ali</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://wanmila07.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>Wan Nur Syamilah Wan Ali</title><link>https://wanmila07.github.io/authors/</link></image></channel></rss>

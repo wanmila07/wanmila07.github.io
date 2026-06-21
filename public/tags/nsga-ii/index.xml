@@ -1,27 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>NSGA-II | </title>
-    <link>https://example.com/tags/nsga-ii/</link>
-      <atom:link href="https://example.com/tags/nsga-ii/index.xml" rel="self" type="application/rss+xml" />
-    <description>NSGA-II</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
-      <title>NSGA-II</title>
-      <link>https://example.com/tags/nsga-ii/</link>
-    </image>
-    
-    <item>
-      <title>Multi-Objective Evolutionary Algorithm for Informal Business Incentive Distribution</title>
-      <link>https://example.com/projects/moea-incentive/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/moea-incentive/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NSGA-II |</title><link>https://wanmila07.github.io/tags/nsga-ii/</link><atom:link href="https://wanmila07.github.io/tags/nsga-ii/index.xml" rel="self" type="application/rss+xml"/><description>NSGA-II</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate><image><url>https://wanmila07.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>NSGA-II</title><link>https://wanmila07.github.io/tags/nsga-ii/</link></image><item><title>Multi-Objective Evolutionary Algorithm for Informal Business Incentive Distribution</title><link>https://wanmila07.github.io/projects/moea-incentive/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>https://wanmila07.github.io/projects/moea-incentive/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This project is the computational core of my PhD thesis, addressing the NP-hard problem of distributing limited government incentives among informal sector businesses in a fair, efficient, and sustainable manner.&lt;/p&gt;
-&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;h2 id="problem-statement"&gt;Problem Statement&lt;/h2&gt;
 &lt;p&gt;Informal sector SMEs form a significant portion of developing economies but are frequently excluded from formal incentive programmes due to the lack of systematic allocation frameworks. Distributing limited incentives across thousands of businesses with heterogeneous needs and constraints is a combinatorial optimisation problem that cannot be solved optimally by traditional methods at scale.&lt;/p&gt;
-&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
+&lt;h2 id="approach"&gt;Approach&lt;/h2&gt;
 &lt;p&gt;A Multi-Objective Evolutionary Algorithm (MOEA) with adaptive operators was developed to simultaneously optimise three competing objectives:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Efficiency: maximising economic impact per incentive unit&lt;/li&gt;
@@ -34,9 +15,9 @@
 &lt;li&gt;Constraint handling for budget limits, eligibility criteria, and minimum allocation thresholds&lt;/li&gt;
 &lt;li&gt;Pareto front generation enabling policy-makers to explore trade-off solutions&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;h2 id="dataset"&gt;Dataset&lt;/h2&gt;
 &lt;p&gt;World Bank Indonesian Survey of Informal Sector Enterprises (ISES 2023) - 5,352 enterprises, 191 variables covering business characteristics, financial performance, access to services, and growth indicators.&lt;/p&gt;
-&lt;h2 id=&#34;technical-stack&#34;&gt;Technical Stack&lt;/h2&gt;
+&lt;h2 id="technical-stack"&gt;Technical Stack&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Core Algorithm: Python (NumPy, SciPy)&lt;/li&gt;
 &lt;li&gt;Data Processing: Pandas, Pathlib&lt;/li&gt;
@@ -46,17 +27,12 @@
 &lt;li&gt;API Layer: FastAPI&lt;/li&gt;
 &lt;li&gt;Dashboard: Streamlit&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;h2 id="status"&gt;Status&lt;/h2&gt;
 &lt;p&gt;Algorithm development and experimental evaluation complete. Manuscript under review.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;
 &lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;research-output&#34;&gt;Research Output&lt;/h2&gt;
+&lt;h2 id="research-output"&gt;Research Output&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;PhD Thesis: Multi-Objective Evolutionary Algorithm with Adaptive Operators for Informal Business Incentive Distribution Modelling (completed, pending submission)&lt;/li&gt;
 &lt;li&gt;Journal manuscript under review&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/ul&gt;</description></item></channel></rss>

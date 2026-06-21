@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Streamlit |</title><link>https://wanmila07.github.io/tags/streamlit/</link><atom:link href="https://wanmila07.github.io/tags/streamlit/index.xml" rel="self" type="application/rss+xml"/><description>Streamlit</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><image><url>https://wanmila07.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>Streamlit</title><link>https://wanmila07.github.io/tags/streamlit/</link></image><item><title>SME Incentive Allocation Engine</title><link>https://wanmila07.github.io/projects/sme-incentive-engine/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://wanmila07.github.io/projects/sme-incentive-engine/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A constrained multi-objective optimization system for SME incentive allocation under competing policy objectives — Efficiency, Equity, and Sustainability.&lt;/p&gt;
+&lt;h2 id="problem"&gt;Problem&lt;/h2&gt;
+&lt;p&gt;Malaysia&amp;rsquo;s informal SME incentive programmes operate on first-come-first-served basis. Policymakers must choose between growth, equity, and sustainability. No current system handles all three simultaneously under real budget constraints.&lt;/p&gt;
+&lt;h2 id="approach"&gt;Approach&lt;/h2&gt;
+&lt;p&gt;Multi-Objective Evolutionary Algorithm (MOEA) with adaptive operators generates Pareto-optimal allocation sets — showing policymakers real tradeoffs rather than forcing a single answer.&lt;/p&gt;
+&lt;h2 id="live-demo"&gt;Live Demo&lt;/h2&gt;
+&lt;p&gt;→
+&lt;/p&gt;</description></item></channel></rss>

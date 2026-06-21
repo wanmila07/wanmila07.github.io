@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>PHP | </title>
-    <link>https://example.com/tags/php/</link>
-      <atom:link href="https://example.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
-    <description>PHP</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
-      <title>PHP</title>
-      <link>https://example.com/tags/php/</link>
-    </image>
-    
-    <item>
-      <title>Full-Stack Web Application &amp; Project Database System – Gagasan Consultant</title>
-      <link>https://example.com/projects/gagasan-system/</link>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/gagasan-system/</guid>
-      <description>&lt;p&gt;Developed during an industry internship at Gagasan Consultant, Kuantan, this system replaced a fully manual project record-keeping process with a secure, bilingual web application.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PHP |</title><link>https://wanmila07.github.io/tags/php/</link><atom:link href="https://wanmila07.github.io/tags/php/index.xml" rel="self" type="application/rss+xml"/><description>PHP</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate><image><url>https://wanmila07.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>PHP</title><link>https://wanmila07.github.io/tags/php/</link></image><item><title>Full-Stack Web Application &amp; Project Database System – Gagasan Consultant</title><link>https://wanmila07.github.io/projects/gagasan-system/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://wanmila07.github.io/projects/gagasan-system/</guid><description>&lt;p&gt;Developed during an industry internship at Gagasan Consultant, Kuantan, this system replaced a fully manual project record-keeping process with a secure, bilingual web application.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;CRUD operations with role-based authentication&lt;/li&gt;
@@ -28,9 +9,4 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Technical stack:&lt;/strong&gt; MySQL, PHP, Apache/MAMP, HTML, CSS, Figma&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Deliverables:&lt;/strong&gt; Full technical documentation including requirements analysis, installation guide, maintenance guide, and test report.&lt;/p&gt;
-&lt;p&gt;This project demonstrates end-to-end system development capability — from requirements gathering and UI design through to deployment and documentation.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;This project demonstrates end-to-end system development capability — from requirements gathering and UI design through to deployment and documentation.&lt;/p&gt;</description></item></channel></rss>

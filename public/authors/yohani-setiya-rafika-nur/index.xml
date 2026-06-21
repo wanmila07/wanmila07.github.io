@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Yohani Setiya Rafika Nur | </title>
-    <link>https://example.com/authors/yohani-setiya-rafika-nur/</link>
-      <atom:link href="https://example.com/authors/yohani-setiya-rafika-nur/index.xml" rel="self" type="application/rss+xml" />
-    <description>Yohani Setiya Rafika Nur</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>Plastic Bottle Defect Detection Based on CNN with MobileNetV2 Architecture</title>
-      <link>https://example.com/publications/franklin-open-2026/</link>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/franklin-open-2026/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yohani Setiya Rafika Nur |</title><link>https://wanmila07.github.io/authors/yohani-setiya-rafika-nur/</link><atom:link href="https://wanmila07.github.io/authors/yohani-setiya-rafika-nur/index.xml" rel="self" type="application/rss+xml"/><description>Yohani Setiya Rafika Nur</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate><item><title>Plastic Bottle Defect Detection Based on CNN with MobileNetV2 Architecture</title><link>https://wanmila07.github.io/publications/franklin-open-2026/</link><pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate><guid>https://wanmila07.github.io/publications/franklin-open-2026/</guid><description/></item></channel></rss>
